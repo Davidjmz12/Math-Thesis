@@ -5,7 +5,7 @@ library("fields")
 library("sp")
 library("patchwork")
 
-load("results-pred-5.RData")
+load("../data/results/results-pred-5.RData")
 load("useful_data.RData")
 
 theme <- theme(
@@ -103,7 +103,7 @@ server <- function(input, output) {
   
   output$plot <- renderPlot({
     plotGg()
-  },width = "auto",height = 700)
+  },width = "auto",height = 800)
 
 
 }
