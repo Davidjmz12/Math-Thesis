@@ -1,7 +1,6 @@
 library("shiny")
 library("ggplot2")
 library("sf")
-library("fields")
 library("sp")
 library("patchwork")
 
